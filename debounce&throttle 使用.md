@@ -18,7 +18,7 @@
 具体详见：[hooks 中使用 debounce](https://www.jianshu.com/p/25c2509b3e6c)
 
 ### 细节注意
-默认不能直接获取 debounce 和 throttle 包裹的函数的返回值，如若需要则应该传入回调函数的方式进行获取。
+默认不能直接获取 debounce 和 throttle 包裹的函数的返回值，如若需要则应该传入回调函数的方式或者使用 **promise** 来实现进行获取。
 详见：[js中防抖、节流函数如何获取原函数的返回值？](https://segmentfault.com/q/1010000039894940)
 
 ### 业务落地
